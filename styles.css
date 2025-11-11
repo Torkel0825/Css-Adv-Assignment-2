@@ -1,0 +1,38 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+header {
+  height: 120px;
+  width: fit-content;
+
+  background-color: whitesmoke;
+}
+
+section {
+  background-color: aliceblue;
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  height: auto;
+  width: auto;
+
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+button {
+  border: none;
+  border-radius: 7%;
+  background-color: orange;
+  height: 120px;
+  width: 10rem;
+}
+
+button:hover {
+  background-color: orangered;
+  height: 125px;
+  width: auto;
+}
