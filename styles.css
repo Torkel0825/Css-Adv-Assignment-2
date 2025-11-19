@@ -22,17 +22,46 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
 }
+ul {
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+  margin: auto;
 
-button {
+  justify-content: center;
+}
+
+li {
   border: none;
   border-radius: 7%;
   background-color: orange;
-  height: 120px;
+  list-style-type: none;
+  height: 5rem;
   width: 10rem;
+  margin: 2rem;
+
+  transition: background-color 1.5s 500ms;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: wrap;
 }
 
-button:hover {
+li:hover {
   background-color: orangered;
-  height: 125px;
-  width: auto;
+}
+section {
+  margin-top: 3rem;
+}
+div {
+  height: 6rem;
+  width: 8rem;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: wrap;
 }
